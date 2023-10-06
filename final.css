@@ -1,0 +1,76 @@
+*{
+box-sizing:border-box;
+}
+body{
+margin:0;
+backgroung:red;
+}
+
+
+
+
+
+
+
+
+/* Very below code has made a great difference. */
+.container{
+max-width:100%;
+height:auto;
+display:flex;
+margin:20;
+padding:25;
+background-color:#800000;
+overflow:auto;
+justify-content: center;
+}
+.gallery{
+margin:0px 10px;
+boder:1px solid #ccc;
+float:left;
+width:390px;
+transition:0.3s;
+}
+.gallery:hover{
+transform:scale(1.08);
+background:#ff800a;
+box-shadow:5px 5px 5px orange;
+}
+.gallery img{
+width:100%;
+top-margin:10px;
+height:auto;
+border:solid;
+border-color:#ffd700;
+}
+
+
+
+
+.desc{
+padding:8px;
+text-align:center;
+width:auto;
+border:solid;
+border-color:#ffd700;
+color:#ffd700;
+font-size:130%;
+background:#800000;
+}
+
+
+
+
+
+.laila{
+background:#800000;
+text-align:center;
+margin: 30px 0px;
+padding:2px;
+color:yellow;
+font-size:30px;
+}
+
+.ranjha{
+background:#800000;
+}

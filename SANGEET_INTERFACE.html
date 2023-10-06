@@ -1,0 +1,422 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Sangeet interface</title>
+<style>
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+padding:1px;
+margin:0;
+color:white;
+}
+
+
+.container{
+max-width:100%;
+height:auto;
+display:flex;
+margin:20;
+padding:25;
+background-color:white;
+overflow:auto;
+justify-content: center;
+}
+.gallery{
+margin:0px 10px;
+boder:1px dotted #800000;
+float:left;
+width:390px;
+transition:0.3s;
+}
+.gallery:hover{
+transform:scale(1.04);
+background:#ff800a;
+box-shadow:5px 5px 5px orange;
+}
+.gallery img{
+width:100%;
+top-margin:10px;
+height:auto;
+border:solid;
+border-color:#ffd700;
+}
+
+
+
+
+.desc{
+padding:3px;
+margin:5px;
+text-align:center;
+width:auto;
+color:black;
+border: solid black 1px;
+font-size:130%;
+background:white;
+}
+
+
+.abey{
+background:#800000;
+}
+
+
+
+
+.select{
+width:60%;
+height:580px;
+padding:5%;
+background:#222;
+position:absolute;
+top:-1000px;
+left:20%;
+transition:0.5s;
+overflow-y:auto;;
+margin:auto;
+}
+
+.select.display{
+top:10px;
+}
+
+.select div{
+width:100%;
+height:200px;
+display:flex;
+padding:5px;
+border:1px solid white;
+position:relative;
+margin: 5px auto;
+}
+.select div img{
+width:300px;
+height:100%;
+}
+
+.select div p{
+padding:35px;
+color:pink;
+}
+.select div h2,
+.select div button{
+position:absolute;
+left:45%;
+top:50%;
+color:white;
+border-radius:3%;
+}
+
+.select div button{
+left:60%;
+top:55%;
+}
+
+.select div span{
+display:none;
+}
+
+
+h1{
+width:3%;
+position:relative;
+top:70px;
+left:90%;
+color:white;
+cursor:pointer;
+}
+h1:before{
+content: attr(data-count);
+position:absolute;
+color:white;
+right:16px;
+font-size:15px;
+text-align:center;
+top:12px;
+width:20px;
+height:20px;
+background:red;
+border-radus:50%;
+opacity:0;
+}
+h1.zero:before{
+opacity:1;
+}
+
+button{
+width:100%;
+padding:5px;
+background:red;
+border:none;
+outline:none;
+font-weight:bold;
+color:#fafafa;
+cursor:pointer;
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+
+<h1><i class="fa fa-shopping-cart"></i></h1>
+
+<div class="abey">
+<center><img src="SANHEAD1.png"></center>
+
+</div>
+
+
+
+
+<div class="container">
+<div class="gallery">
+<img src="Sangeet (4).jpg">
+<div class="desc">Brown Coat set<br>Rs.22999</div>
+<center><button>Add to cart</button></center>
+</div>
+<div class="gallery">
+<img src="Sangeet (5).jpg">
+<div class="desc">Floral Jacket set<br>Rs.23999</div>
+<center><button>Add to cart</button></center>
+</div>
+<div class="gallery">
+<img src="Sangeet (1).jpeg">
+<div class="desc">Tradtionl Jacket Kurta set<br>Rs.15599</div>
+<center><button>Add to cart</button></center>
+</div>
+<div class="gallery">
+<img src="Sangeet (11).jpeg">
+<div class="desc">Alluring Blue Pathaani suit<br>Rs.6599</div>
+<center><button>Add to cart</button></center>
+</div>
+</div>
+
+
+
+
+
+<div class="container">
+<div class="gallery">
+<img src="Sangeet (14).jpeg">
+<div class="desc">Royal Sobar Blue Kurta<br>Rs.10699</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (13).jpeg">
+<div class="desc">Charming Blue Jacket<br>Rs.17999</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (6).jpeg">
+<div class="desc">Pathaani Jacket set<br>Rs.13999</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (17).jpg">
+<div class="desc">Blue black kurta set<br>Rs.9999</div>
+<center><button>Add to cart</button></center>
+</div>
+</div>
+
+
+
+
+
+
+<div class="container">
+<div class="gallery">
+<img src="Sangeet (8).jpeg">
+<div class="desc">Blue pathaani suit<br>Rs.10599</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (9).jpeg">
+<div class="desc">Golden sherwani<br>Rs.14998</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (10).jpeg">
+<div class="desc">Dhoti kurta<br>Rs.15499</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (19).jpeg">
+<div class="desc">Blue cut-kurta set<br>Rs.9999</div>
+<center><button>Add to cart</button></center>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="container">
+<div class="gallery">
+<img src="Sangeet (2).jpeg">
+<div class="desc">Floral grey<br>Rs.10999</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (3).jpeg">
+<div class="desc">Peach cut-kurta set<br>Rs.12999</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (12).jpeg">
+<div class="desc">Pathaani Jacket set<br>Rs.17999</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (15).jpg">
+<div class="desc">Designer printed coat set<br>Rs.19999</div>
+<center><button>Add to cart</button></center>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="container">
+<div class="gallery">
+<img src="Sangeet (16).jpeg">
+<div class="desc">Royal Blue coat set<br>Rs.15999</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (18).jpg">
+<div class="desc">Charming Blue<br>Rs.14999</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (20).jpeg">
+<div class="desc">Classic Kurta<br>Rs.13999</div>
+<center><button>Add to cart</button></center>
+</div>
+
+<div class="gallery">
+<img src="Sangeet (21).jpg">
+<div class="desc">Blue coat Sherwani<br>Rs.12999</div>
+<center><button>Add to cart</button></center>
+</div>
+</div>
+
+<div class="select">
+</div>
+
+<footer>
+<div class="up-section">
+<ul>
+<h1>About</h1>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Careers</a></li>
+<li><a href="#">Press</a></li>
+</ul>
+<ul>
+<h1>Help</h1>
+<li><a href="#">Payments</a></li>
+<li><a href="#">Shipping</a></li>
+<li><a href="#">Cancellation & Returns</a></li>
+<li><a href="#">FAQ</a></li>
+<li><a href="#">Report Infringement</a></li>
+</ul>
+<ul>
+<h1>Policy</h1>
+<li><a href="#">Return Policy</a></li>
+<li><a href="#">Terms Of Use</a></li>
+<li><a href="#">Security</a></li>
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Sitemap</a></li>
+<li><a href="#">EPR Compliance</a></li>
+</ul>
+<ul>
+<h1>Mail Us:</h1>
+<li><p>Swamyavar Private Limited,</p></li>
+<li><p>Buildings Alyssa, Begonia & </p></li>
+<li><p>Clove Embassy Tech Village,</p></li>
+<li><p>Outer Ring Road, Devarabeesanahalli Village,</p></li>
+<li><p>Bengaluru, 560103,</p></li>
+<li><p>Karnataka, India</p></li>
+</ul>
+<ul>
+<h1>Registered Office Address:</h1>
+<li><p>Swamyavar Private Limited,</p></li>
+<li><p>Buildings Alyssa, Begonia & </p></li>
+<li><p>Clove Embassy Tech Village,</p></li>
+<li><p>Outer Ring Road, Devarabeesanahalli Village,</p></li>
+<li><p>Bengaluru, 560103,</p></li>
+<li><p>Karnataka, India</p></li>
+<li><p>CIN : U51109KA2012PTC066107</p></li>
+</ul>
+</div><hr/>
+<div class="dwn">
+<div class="left">
+<a href="#" style="color:#fff">BRIDES</a>
+<a href="#" style="color:#fff">GROOMS</a>
+<a href="#" style="color:#fff">IDEAS</a>
+<a href="#" style="color:#fff">COMMUNITY</a>
+</div>
+<div class="right">
+<p class="keep">KEEP IN TOUCH</p>
+<a href="#"><span><i class="fa fa-facebook-square"></i></span></a>
+<a href="#"><span><i class="fa fa-youtube-play"></i><span></a>
+<a href="#"><span><i class="fa fa-twitter-square"></i></span></a>
+<a href="#"><span><i class="fa fa-instagram"></i></span></a>
+
+</div>
+</div>
+
+</footer>
+
+
+
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+var noti = document.querySelector('h1');
+var select = document.querySelector('.select');
+var button = document.getElementsByTagName('button');
+for(but of button)
+{
+but.addEventListener('click', (e)=>{
+var add = Number(noti.getAttribute('data-count')||0);
+noti.setAttribute('data-count', add+1);
+noti.classList.add('zero');
+
+
+
+
+})
+}
+
+
+</script>

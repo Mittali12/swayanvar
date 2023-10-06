@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>SIGNUP</title>
+<style>
+.avatar{
+width:100px;
+height:100px;
+border-radius:50%;
+position:absolute;
+top:-50px;
+right:160px;
+}
+.pic{
+opacity:0.5;
+}
+body{
+
+background-position:center;
+font-family:sans-serif;
+
+}
+.signup{
+width:400px;
+height:520px;
+background:#000;
+color:#fff;
+top:50%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+padding:70px 30px;
+}
+ h1{
+ margin:0;
+ padding:0;
+ text-align:center;
+ font-size:30px;
+ color:red;
+ }
+ .signup p{
+ margin:0;
+ padding:0;
+ font-weight:bold;
+ }
+ .signup input{
+ width:100%;
+ margin-bottom:20px;
+ }
+ .signup input[type="text], input[type="password"]{
+ border:none;
+ border-bottom:1px solid #fff;
+ background:transparent;
+ outline:none;
+ height:50px;
+ color:#fff;
+ font-size:16px;
+ }
+ .signup input[type="submit"]{
+border:none;
+outline:none;
+height:40px;
+background:#fb2525;
+color:#fff;
+font-size:20px;
+border-radius:20px;
+}
+.signup input[type="submit"]:hover{
+ cursor:pointer;
+ background:#20B2AA;
+ }
+</style>
+<script type="text/javascript">
+function validateForm()
+{
+    var pass1 = document.getElementById("password1").value;
+     var pass2 = document.getElementById("password2").value;
+if(pass1 == pass2)
+{
+alert("Passwords match");
+return true;
+}
+else
+{
+alert("Passwords do not match");
+return false;
+}
+return false;
+}
+</script>
+</head>
+<body>
+<img src="background.jpg" width="100%" class="pic">
+<div class="signup">
+<img src="image2.png" class="avatar">
+<h1>SIGN UP HERE</h1><br>
+<form  onsubmit="return validateForm();">
+
+<p>First Name</p>
+<input type="text" name="name" placeholder="Jhon" required>
+<p>Last Name</p>
+<input type="text" name="name" placeholder="Smith">
+<p>Email</p>
+<input type="email" name="email" placeholder="optional">
+<p>Phone Number</p>
+<input type="number"  placeholder="+91 " required>
+<p>Create Password</p>
+ <input type="password" id="password1"  placeholder="Enter Password" required><br>
+  <input type="password" id="password2"  placeholder="Confirm Password" required><br>
+<br>
+
+
+<input type="submit" name="submit" value="Sign Up"><br>
+
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+ 
+#main{
+  position:;
+  height:380px;
+  width:100%;
+  
+  }
+  #slideimage{
+  height:380px;
+  width:100%;
+  align:center;
+  box-sizing: border-box;
+  box-shadow:5px 5px 20px grey;
+  animation:ani 2s linear;
+  }
+  h2 {
+  font: 70 70px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color:black;
+  text-align:center;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}

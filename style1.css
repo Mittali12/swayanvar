@@ -1,0 +1,92 @@
+@charset "utf-8";
+body{
+margin:0px;
+padding:0px;
+background-color:#ffffff;
+}
+a{
+text-decoration:none;
+}
+ul{
+list-style:none;
+}
+footer{
+background-color:#353745;
+box-sizing:border-box;
+}
+.up-section ul{
+font-family:calibri;
+margin:0px;
+padding:0px 20px;
+}
+.up-section h1{
+color:#9697a0;
+font-size:20px;
+font-family:calibri;
+}
+.up-section ul li a{
+font-size:16px;
+color:#ffffff;
+}
+.up-section ul li p{
+font-size:14px;
+color:#ffffff;
+line-height:10px;
+}
+.up-section{
+display:flex;
+justify-content:space-between;
+padding:3% 0px;
+margin:5px;
+width:80%;
+flex-wrap:wrap;
+margin-left:140px;
+}
+
+.left{
+display:flex;
+justify-content:space-between;
+
+width:25%;
+margin-left:60px;
+height:40px;
+margin-top:10px;
+}
+.right{
+display:flex;
+justify-content:space-between;
+width:20%;
+margin-left:1100px;
+height:40px;
+margin-top:-45px;
+
+}
+.keep{
+color:white;
+margin-top:7px;
+}
+.fa {
+  padding: 3px;
+  font-size: 100px;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 40%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter-square  {
+  color: white;
+}
+.fa-facebook-square{
+color: white;
+}
+.fa-youtube-play{
+color: white;
+}
+.fa-instagram{
+color: white;
+}

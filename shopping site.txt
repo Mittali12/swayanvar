@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>online shopping site for wedding</title>
+<link rel="stylesheet" href="site.css">
+<link rel="stylesheet" 
+
+href="https://stackpath.bootstrapcdn.com/font-
+
+awesome/4.7.0/css/font-awesome.min.css"
+</head>
+<body>
+<div class="navbar">
+<div class="search-box">
+<input class="search-txt" type="text" name="" 
+
+placeholder="type to search">
+<a class="search-btn" href="#"><i class="fa fa-
+
+search"></i>
+</a>
+</div>
+<nav>
+<ul>
+<li><a href="">Profile</a></li>
+<li><a href="">Wishlist</a></li>
+<li><a href="">Bag</a></li>
+</div>
+</body>
+</html>
